@@ -714,6 +714,14 @@
     loupe "^3.1.1"
     tinyrainbow "^1.2.0"
 
+"@zodyac/zod-mongoose@^2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@zodyac/zod-mongoose/-/zod-mongoose-2.3.3.tgz#f3984ee9d2ca68e0dec0249bafd378a1ef05285f"
+  integrity sha512-QedK0iJjdg83gwjHNBiAEEayL1LOCCzmz6Ht3t8FQh05RU8i5o6hYuO+zzUJ6nOzpGaWziZWdlihPZZ2jRRILw==
+  dependencies:
+    mongoose "^8.0.3"
+    zod "^3.22.4"
+
 abort-controller@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
@@ -2205,7 +2213,7 @@ mongodb@6.9.0:
     bson "^6.7.0"
     mongodb-connection-string-url "^3.0.0"
 
-mongoose@^8.7.1:
+mongoose@^8.0.3, mongoose@^8.7.1:
   version "8.7.1"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-8.7.1.tgz#832b58c95d457c8a202da5eb17adfb8cdce9a0c7"
   integrity sha512-RpNMyhyzLVCVbf8xTVbrf/18G3MqQzNw5pJdvOJ60fzbCa3cOZzz9L+8XpqzBXtRlgZGWv0T7MmOtvrT8ocp1Q==
@@ -3510,7 +3518,7 @@ zod-sockets@^2.1.0:
     ramda "^0.30.0"
     yaml "^2.4.1"
 
-zod@^3.23.8:
+zod@^3.22.4, zod@^3.23.8:
   version "3.23.8"
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.23.8.tgz#e37b957b5d52079769fb8097099b592f0ef4067d"
   integrity sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==
